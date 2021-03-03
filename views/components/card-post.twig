@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-content">
+        <p class="title is-4">{{ post.title }}</p>
+
+        <div class="content">
+            {{ post.preview.length(30).read_more(false) }}
+        </div>
+    </div>
+    <footer class="card-footer">
+        <a href="{{ post.link }}" class="card-footer-item">Lire plus</a>
+    </footer>
+</div>

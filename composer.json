@@ -1,0 +1,13 @@
+{
+    "name": "dezodev/bulmaone",
+    "description": "Theme for WordPress",
+    "authors": [
+        {
+            "name": "Dezodev",
+            "email": "dezodev@gmail.com"
+        }
+    ],
+    "require": {
+        "timber/timber": "^1.18"
+    }
+}
