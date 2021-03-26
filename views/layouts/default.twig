@@ -12,7 +12,9 @@
 <body class="{{ body_class }}">
     {% include "components/header.twig" %}
 
-    {% block content %}{% endblock %}
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
 
     {% include "components/footer.twig" %}
 
